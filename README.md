@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@esm/index.mjs';
+import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@v0.1.1-esm/index.mjs';
 ```
 
 #### dnancusumkbn( N, sum, x, strideX, y, strideY )
@@ -172,7 +172,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.mjs';
-import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@esm/index.mjs';
+import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@v0.1.1-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.7 ) > 0 ) {
