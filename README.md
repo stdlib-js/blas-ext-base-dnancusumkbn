@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dnancusumkbn/tags). For example,
+
+```javascript
 import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@v0.1.1-deno/mod.js';
 ```
 
@@ -167,7 +172,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@deno/mod.js';
-import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@v0.1.1-deno/mod.js';
+import dnancusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dnancusumkbn@deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.7 ) > 0 ) {
